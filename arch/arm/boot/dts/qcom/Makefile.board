@@ -1,5 +1,4 @@
-dtb-$(CONFIG_ARCH_MSM8909) += 	huawei_y538_a1_va.dtb \
-	huawei_y538_a1_vb.dtb \
+dtb-$(CONFIG_ARCH_MSM8909) += 	huawei_y538_a1_vb.dtb
  
  
 DTB_NAMES := $(subst $\",,$(CONFIG_BUILD_ARM_APPENDED_DTB_IMAGE_NAMES))
